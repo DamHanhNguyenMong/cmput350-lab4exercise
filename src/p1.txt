@@ -1,0 +1,6 @@
+34455 347898375840389362
+95676 347898375840389362
+
+The row traversal is faster because it acesses contiguous memory locations,
+so it makes better use of the CPU cache. On the other hand, the column traversal
+traverse around the memory, between 4000 elements so it takes more time.

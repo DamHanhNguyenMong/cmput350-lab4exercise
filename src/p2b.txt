@@ -1,0 +1,7 @@
+126333
+73387
+
+Morton order is faster because nearby values are stored close together in memory, 
+which makes better use of the CPU cache. The normal row-major order is slower because 
+the convolution accesses values in a pattern that is less cache-friendly. This makes more 
+cache misses.
